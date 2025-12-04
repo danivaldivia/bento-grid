@@ -1,10 +1,5 @@
-.box-5{
-    background-color: blue;
-    grid-area: box-5;
-    height: 23rem;
-}
-@media screen and (min-width: 1024px) {
-    .box-5{
-        height: 100%;
-    }
+.box-5 {
+  background-color: var(--purple500);
+  grid-area: box-5;
+  height: 100%;
 }

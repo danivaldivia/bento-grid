@@ -1,11 +1,5 @@
-.box-7{
-    background-color: burlywood;
-    grid-area: box-7;
-    height: 15em;
+.box-7 {
+  background-color: var(--yellow100);
+  grid-area: box-7;
+  height: 100%;
 }
-
-@media screen  and (min-width: 1024px){
-    .box-7{
-        height: 100%;
-    } 
-} 

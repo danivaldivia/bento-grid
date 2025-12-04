@@ -1,11 +1,6 @@
-.box-2{
-    background-color: greenyellow;
-    grid-area: box-2;
-    height: 10rem;
-}
-
-@media screen  and (min-width: 1024px){
-    .box-2{
-        height: 100%;
-    } 
+.box-2 {
+  background-color: var(--white);
+  border: 1px solid black;
+  grid-area: box-2;
+  height: 100%;
 }

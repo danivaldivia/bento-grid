@@ -4,6 +4,8 @@
   display: grid;
   gap: 1rem;
   box-sizing: border-box;
+  grid-template-columns: 1fr;
+  grid-template-rows: 290px 162.54px 216.25px 468.91px 372.22px 215.58px 234.35px 350.5px;
   grid-template-areas:
     "box-1"
     "box-2"
@@ -13,6 +15,20 @@
     "box-6"
     "box-7"
     "box-8";
+}
+
+@media screen and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    grid-template-rows: 324px 247px 496.82px 246px 131px 354.5px;
+    grid-template-areas:
+      "box-1 box-1"
+      "box-2 box-3"
+      "box-4 box-4"
+      "box-5 box-5"
+      "box-6 box-6"
+      "box-7 box-8";
+  }
 }
 
 @media screen and (min-width: 1024px) {
