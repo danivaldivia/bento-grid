@@ -33,7 +33,7 @@
 
 @media screen and (min-width: 1024px) {
   .grid-container {
-    grid-template-columns: 256px 272px 272px 256px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     grid-template-rows: 324px 247px 246px;
     align-content: center;
     justify-content: center;
