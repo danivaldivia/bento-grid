@@ -1,0 +1,11 @@
+.box-4{
+    background-color: skyblue;
+    grid-area: box-4;
+    height: 29rem;
+}
+
+@media screen  and (min-width: 1024px){
+    .box-4{
+        height: 100%;
+    } 
+}

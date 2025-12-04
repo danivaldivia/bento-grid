@@ -1,0 +1,13 @@
+.box-8{
+    background-color: red;
+    grid-area: box-8;
+    height: 22rem;
+}
+
+@media screen and (min-width: 1024px) {
+    .box-8{
+        grid-row: 2/4;
+        height: 100%;
+    }
+    
+}

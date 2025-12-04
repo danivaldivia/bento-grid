@@ -1,0 +1,12 @@
+.box-1{
+    background-color: yellow;
+    grid-area: box-1;
+    width: auto;
+    height: 18.125rem;
+}
+
+@media screen  and (min-width: 1024px){
+    .box-1{
+        height: 100%;
+    } 
+} 

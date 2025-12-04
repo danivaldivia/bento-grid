@@ -1,0 +1,16 @@
+/* dm-sans-regular - latin */
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../assets/fonts/dm-sans-v17-latin-regular.woff2') format('woff2'); 
+}
+
+@font-face {
+    font-display: swap; 
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../assets/fonts/dm-sans-v17-latin-500.woff2') format('woff2'); 
+}

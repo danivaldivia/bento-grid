@@ -1,0 +1,11 @@
+.box-3{
+    background-color: purple;
+    grid-area: box-3;
+    height: 14rem;
+}
+
+@media screen  and (min-width: 1024px){
+    .box-3{
+        height: 100%;
+    } 
+}
