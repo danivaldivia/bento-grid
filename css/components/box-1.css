@@ -1,0 +1,6 @@
+.box-1 {
+  background-color: var(--purple500);
+  grid-area: box-1;
+  width: auto;
+  height: 100%;
+}

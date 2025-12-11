@@ -1,0 +1,5 @@
+.box-4 {
+  background-color: var(--purple100);
+  grid-area: box-4;
+  height: 100%;
+}
