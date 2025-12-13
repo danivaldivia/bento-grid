@@ -1,11 +1,9 @@
 .box-1 {
   background-color: var(--purple500);
   grid-area: box-1;
-  width: 100%;
-  height: auto;
   display: flex;
   box-sizing: border-box;
-  border-radius: 0.625rem;
+  border-radius: var(--radius-card);
   flex-direction: column;
   justify-content: center;
   align-items: center;
