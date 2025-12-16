@@ -8,33 +8,32 @@
   gap: 1rem;
 }
 
-.box2__profile-container {
+.box2__profiles {
   display: flex;
   gap: 0.625rem;
 }
 
 .box2__profile-card {
-  box-sizing: border-box;
-  gap: 0.5rem;
-  box-shadow: -0.625rem 0.75rem 1.5rem 0rem rgba(0, 0, 0, 0.1);
-  background-color: var(--white);
-  padding: 0.75rem;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
   align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background-color: var(--white);
   border-radius: 2rem;
+  box-shadow: -0.625rem 0.75rem 1.5rem 0rem rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  justify-content: center;
   height: 4rem;
 }
 
-.box2__logo-wrapper {
+.box2__logo {
+  width: 3rem;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: var(--yellow500);
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 
 .box2__details {
