@@ -1,6 +1,61 @@
 .box-1 {
   background-color: var(--purple500);
   grid-area: box-1;
-  width: auto;
-  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  border-radius: var(--radius-card);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2.5rem 2rem;
+}
+
+.box1__title {
+  text-align: center;
+  margin: 0;
+  margin-bottom: 1.5rem;
+  color: var(--white);
+  font-size: 2.875rem;
+  font-weight: 500;
+  line-height: 94%;
+  letter-spacing: -0.04em;
+}
+
+.box1__title--accent {
+  color: var(--yellow500);
+}
+
+.box1__title--italic {
+  font-style: italic;
+}
+
+.box1__image {
+  margin-bottom: 0.5rem;
+}
+
+.box1__image img {
+  display: block;
+}
+
+.box1__description {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1em;
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .box-1 {
+    padding: 2rem;
+  }
+
+  .box1__title {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box-1 {
+    font-weight: 500;
+  }
 }

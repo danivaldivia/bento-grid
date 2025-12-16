@@ -1,8 +1,9 @@
-:root{
-    --purple100: #DBD1FC;
-    --purple500: #7551DC;
-    --yellow100: #F9EEE2;
-    --yellow500: #FFCC6A;
-    --white: #FFFFFF;
-    --black: #121212;
+:root {
+  --purple100: #dbd1fc;
+  --purple500: #7551dc;
+  --yellow100: #f9eee2;
+  --yellow500: #ffcc6a;
+  --white: #ffffff;
+  --black: #121212;
+  --radius-card: 0.625rem;
 }
