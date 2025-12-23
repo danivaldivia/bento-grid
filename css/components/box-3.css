@@ -2,4 +2,85 @@
   background-color: var(--yellow500);
   grid-area: box-3;
   height: 100%;
+  box-sizing: border-box;
+  border-radius: var(--radius-card);
+  padding: 1rem;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+.box3__title {
+  margin: 0;
+  margin-bottom: 1rem;
+  font-size: 1.625rem;
+  font-weight: 500;
+  letter-spacing: -0.06em;
+  line-height: 1em;
+}
+
+.calendar-card {
+  overflow: hidden;
+  box-sizing: border-box;
+  border-top-left-radius: var(--radius-card);
+  border-top-right-radius: var(--radius-card);
+  background-color: var(--white);
+  width: 13rem;
+  height: 10rem;
+}
+
+.calendar-header {
+  background-color: var(--purple500);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1.5rem 0.625rem 0.75rem;
+}
+
+.calendar-header h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.calendar-grid {
+  gap: 1rem;
+  padding: 1rem;
+  padding-bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.check {
+  height: min-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cell {
+  justify-content: center;
+  background-color: var(--yellow300);
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .box-3 {
+    padding: 1.5rem;
+    padding-bottom: 0;
+  }
+
+  .box3__title {
+    font-size: 1.75rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box3__title {
+    font-size: 2rem;
+  }
 }
