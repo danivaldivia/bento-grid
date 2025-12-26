@@ -22,7 +22,7 @@
   padding: 0.75rem 1.5rem 0.75rem 0.75rem;
   background-color: var(--white);
   border-radius: 2rem;
-  box-shadow: -0.5rem 0.5rem 0.75rem rgba(0, 0, 0, 0.1);
+  box-shadow: -0.625rem 0.625rem 1.5rem rgba(98, 26, 123, 0.05);
   box-sizing: border-box;
   justify-content: center;
   height: 4rem;
@@ -49,9 +49,10 @@
 }
 
 .box2__username {
+  width: fit-content;
   margin: 0;
   font-weight: 500;
-  letter-spacing: -0.01em;
+  letter-spacing: -0.06em;
 }
 
 .box2__followers {
@@ -59,14 +60,14 @@
   color: var(--gray);
   font-size: 0.75rem;
   white-space: nowrap;
-  letter-spacing: -0.0036em;
+  letter-spacing: -0.03em;
 }
 
 .box2__heading {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1.625rem;
   font-weight: 500;
-  letter-spacing: -0.05em;
+  letter-spacing: -0.06em;
   line-height: 0.9;
 }
 
