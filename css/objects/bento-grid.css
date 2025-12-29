@@ -15,13 +15,12 @@
     "box-6"
     "box-7"
     "box-8";
-  align-self: flex-start;
 }
 
 @media screen and (min-width: 768px) {
   .bento-grid {
     grid-template-columns: repeat(2, 20rem);
-    grid-template-rows: 20rem 15.5rem 31rem 15.125rem 8rem 22rem;
+    grid-template-rows: repeat(6, auto);
     justify-content: center;
     grid-template-areas:
       "box-1 box-1"
@@ -36,7 +35,7 @@
 @media screen and (min-width: 1024px) {
   .bento-grid {
     grid-template-columns: repeat(4, minmax(auto, 16rem));
-    grid-template-rows: 20rem 15.5rem 15.5rem;
+    grid-template-rows: repeat(3, auto);
     align-content: center;
     justify-content: center;
     grid-template-areas:
