@@ -2,8 +2,6 @@
   background-color: var(--purple500);
   grid-area: box-1;
   display: flex;
-  box-sizing: border-box;
-  border-radius: var(--radius-card);
   flex-direction: column;
   justify-content: center;
   align-items: center;

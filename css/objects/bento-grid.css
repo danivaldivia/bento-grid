@@ -5,7 +5,7 @@
   display: grid;
   gap: 1rem;
   box-sizing: border-box;
-  grid-template-rows: 18.125rem 10rem 13.5rem 29rem 23rem 13.5rem 15rem 22rem;
+  grid-template-rows: repeat(8, auto);
   grid-template-areas:
     "box-1"
     "box-2"
@@ -19,8 +19,9 @@
 
 @media screen and (min-width: 768px) {
   .bento-grid {
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-    grid-template-rows: 20rem 15.5rem 31rem 15.125rem 8rem 22rem;
+    grid-template-columns: repeat(2, 20rem);
+    grid-template-rows: repeat(6, auto);
+    justify-content: center;
     grid-template-areas:
       "box-1 box-1"
       "box-2 box-3"
@@ -34,7 +35,7 @@
 @media screen and (min-width: 1024px) {
   .bento-grid {
     grid-template-columns: repeat(4, minmax(auto, 16rem));
-    grid-template-rows: 20rem 15.5rem 15.5rem;
+    grid-template-rows: repeat(3, auto);
     align-content: center;
     justify-content: center;
     grid-template-areas:
