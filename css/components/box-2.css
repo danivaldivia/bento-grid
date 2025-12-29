@@ -1,7 +1,5 @@
 .box-2 {
   background-color: var(--white);
-  box-sizing: border-box;
-  border-radius: var(--radius-card);
   grid-area: box-2;
   padding: 1rem;
   display: flex;
@@ -10,60 +8,7 @@
   overflow: hidden;
 }
 
-.box2__profiles {
-  display: flex;
-  gap: 0.625rem;
-}
-
-.box2__profile-card {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1.5rem 0.75rem 0.75rem;
-  background-color: var(--white);
-  border-radius: 2rem;
-  box-shadow: -0.625rem 0.625rem 1.5rem rgba(98, 26, 123, 0.05);
-  box-sizing: border-box;
-  justify-content: center;
-  height: 4rem;
-}
-
-.box2__logo {
-  width: 2.625rem;
-  height: 2.625rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--yellow500);
-  border-radius: 50%;
-}
-
-.box2__logo img {
-  width: 1.625rem;
-  height: 1.625rem;
-}
-
-.box2__details {
-  display: flex;
-  flex-direction: column;
-}
-
-.box2__username {
-  width: fit-content;
-  margin: 0;
-  font-weight: 500;
-  letter-spacing: -0.06em;
-}
-
-.box2__followers {
-  margin: 0;
-  color: var(--gray);
-  font-size: 0.75rem;
-  white-space: nowrap;
-  letter-spacing: -0.03em;
-}
-
-.box2__heading {
+.box2__title {
   margin: 0;
   font-size: 1.625rem;
   font-weight: 500;
@@ -77,7 +22,7 @@
     gap: 3rem;
   }
 
-  .box2__heading {
+  .box2__title {
     width: 13rem;
     font-size: 1.75rem;
   }
@@ -88,7 +33,7 @@
     gap: 1.25rem;
   }
 
-  .box2__heading {
+  .box2__title {
     font-size: 2rem;
     letter-spacing: -0.06em;
     line-height: 0.8em;
