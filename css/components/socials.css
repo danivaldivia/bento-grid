@@ -1,0 +1,52 @@
+.socials {
+  display: flex;
+  gap: 0.625rem;
+}
+
+.social__item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem 0.75rem 0.75rem;
+  background-color: var(--white);
+  border-radius: 2rem;
+  box-shadow: -0.625rem 0.625rem 1.5rem rgba(98, 26, 123, 0.05);
+  box-sizing: border-box;
+  justify-content: center;
+  height: 4rem;
+}
+
+.social__logo {
+  width: 2.625rem;
+  height: 2.625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow500);
+  border-radius: 50%;
+}
+
+.social__logo img {
+  width: 1.625rem;
+  height: 1.625rem;
+}
+
+.social__details {
+  display: flex;
+  flex-direction: column;
+}
+
+.social__username {
+  width: fit-content;
+  margin: 0;
+  font-weight: 500;
+  letter-spacing: -0.06em;
+}
+
+.social__followers {
+  margin: 0;
+  color: var(--gray);
+  font-size: 0.75rem;
+  white-space: nowrap;
+  letter-spacing: -0.03em;
+}
