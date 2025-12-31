@@ -33,7 +33,7 @@
   }
 
   .box4__description {
-    width: auto;
+    max-width: 22.5rem;
   }
 }
 
