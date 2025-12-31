@@ -3,6 +3,7 @@
   grid-area: box-3;
   padding: 1rem;
   padding-bottom: 0;
+  place-items: start;
 }
 
 .box3__title {
@@ -20,9 +21,7 @@
   border-top-left-radius: var(--radius-card);
   border-top-right-radius: var(--radius-card);
   background-color: var(--white);
-  width: 13rem;
-  height: 10rem;
-  margin-bottom: -1rem;
+  margin-bottom: -1.2rem;
 }
 
 .calendar-header {
@@ -32,6 +31,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.75rem 1.5rem 0.625rem 0.75rem;
+  line-height: 1rem;
 }
 
 .calendar-header span {
@@ -43,20 +43,18 @@
   padding: 1rem;
   padding-bottom: 0;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, auto);
   grid-template-rows: repeat(3, 1fr);
   justify-items: center;
+  column-gap: 1.75rem;
 }
 
 .check {
-  height: min-content;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .cell {
-  justify-content: center;
   background-color: var(--yellow300);
   width: 1.5rem;
   height: 1.5rem;
@@ -70,7 +68,7 @@
   }
 
   .calendar-card {
-    margin-bottom: -0.1rem;
+    margin-bottom: -0.2rem;
   }
 
   .box3__title {
@@ -85,6 +83,6 @@
   }
 
   .calendar-card {
-    margin-bottom: -3.7rem;
+    margin-bottom: -3.9rem;
   }
 }
