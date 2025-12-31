@@ -22,6 +22,7 @@
   background-color: var(--white);
   width: 13rem;
   height: 10rem;
+  margin-bottom: -1rem;
 }
 
 .calendar-header {
@@ -33,10 +34,8 @@
   padding: 0.75rem 1.5rem 0.625rem 0.75rem;
 }
 
-.calendar-header h2 {
-  font-size: 1rem;
+.calendar-header span {
   font-weight: 500;
-  margin: 0;
 }
 
 .calendar-grid {
@@ -70,6 +69,10 @@
     padding-bottom: 0;
   }
 
+  .calendar-card {
+    margin-bottom: -0.1rem;
+  }
+
   .box3__title {
     font-size: 1.75rem;
   }
@@ -78,5 +81,10 @@
 @media screen and (min-width: 1024px) {
   .box3__title {
     font-size: 2rem;
+    line-height: 0.9em;
+  }
+
+  .calendar-card {
+    margin-bottom: -3.7rem;
   }
 }
