@@ -1,5 +1,48 @@
 .box-4 {
   background-color: var(--purple100);
   grid-area: box-4;
-  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.box4__title {
+  margin: 0;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  font-size: 1.625rem;
+  letter-spacing: -0.06em;
+}
+
+.box-4 img {
+  margin-bottom: 1.5rem;
+}
+
+.box4__description {
+  margin: 0;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.2em;
+}
+
+@media screen and (min-width: 768px) {
+  .box4__title {
+    font-size: 1.75rem;
+  }
+
+  .box4__description {
+    width: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box-4 {
+    align-items: start;
+  }
+
+  .box4__description {
+    text-align: start;
+  }
 }
