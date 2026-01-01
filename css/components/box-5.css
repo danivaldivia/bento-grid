@@ -1,5 +1,18 @@
 .box-5 {
   background-color: var(--purple500);
   grid-area: box-5;
-  height: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box5__content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.box5__content--front-image {
+  position: absolute;
 }
