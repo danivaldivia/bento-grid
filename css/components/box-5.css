@@ -8,11 +8,51 @@
 }
 
 .box5__content {
+  width: fit-content;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.box5__content--back-image {
+  position: absolute;
 }
 
 .box5__content--front-image {
-  position: absolute;
+  position: relative;
+  margin-top: 130px;
+  margin-left: 100px;
+}
+
+.box5__title {
+  margin: 0;
+  color: var(--white);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: -0.06em;
+}
+
+@media screen and (min-width: 768px) {
+  .box-5 {
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .box5__content {
+    margin-bottom: 0;
+  }
+
+  .box5__title {
+    font-size: 2.25rem;
+    text-align: start;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box5__title {
+    font-size: 2.5rem;
+    letter-spacing: -0.02em;
+  }
 }
