@@ -1,11 +1,53 @@
 .box-8 {
   background-color: var(--yellow500);
   grid-area: box-8;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1.5rem;
+}
+
+.box8__title {
+  margin: 0;
+  font-size: 32px;
+  line-height: 28px;
+  letter-spacing: -0.06em;
+  font-weight: 500;
+}
+
+.box8__content {
+  position: relative;
+}
+
+.box8__content--circle {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 89px;
+  width: 89px;
+  border-radius: 50%;
+  background-color: var(--white);
+  top: 45px;
+  left: 128px;
+}
+
+@media screen and (min-width: 768px) {
+  .box8__title {
+    font-size: 36px;
+    line-height: 30px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
+  .box8__title {
+    font-size: 40px;
+    letter-spacing: -2px;
+    line-height: 36px;
+  }
+
   .box-8 {
     grid-row: 2/4;
+    justify-content: space-between;
   }
 }
