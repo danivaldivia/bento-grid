@@ -1,5 +1,72 @@
 .box-7 {
   background-color: var(--yellow100);
   grid-area: box-7;
-  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+}
+
+.box7__title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.75rem;
+  letter-spacing: -0.06em;
+}
+
+.box7__title--highlight {
+  color: var(--purple500);
+  font-style: italic;
+}
+
+.box7__badge {
+  position: relative;
+  width: fit-content;
+}
+
+.box7__badge-label {
+  background-color: var(--yellow500);
+  display: flex;
+  flex-direction: row;
+  padding: 17px 26px;
+  border-radius: 42.95px;
+}
+
+.box7__badge-text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 19.33px;
+  color: var(--purple500);
+}
+
+.box7__badge-pointer {
+  margin-left: 80px;
+  margin-top: -8px;
+  width: 2.125rem;
+  height: 2.125rem;
+}
+
+@media screen and (min-width: 768px) {
+  .box-7 {
+    padding: 24px;
+  }
+
+  .box7__title {
+    font-size: 36px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box-7 {
+    padding: 2rem;
+  }
+
+  .box7__title {
+    font-size: 40px;
+    letter-spacing: -2px;
+    line-height: 36px;
+  }
 }
