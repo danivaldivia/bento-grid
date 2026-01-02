@@ -1,6 +1,61 @@
 .box-6 {
   background-color: var(--white);
-  border: 1px solid black;
   grid-area: box-6;
-  height: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.box6__content {
+  display: flex;
+  width: fit-content;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.box6__title {
+  font-size: 2.875rem;
+  font-weight: 500;
+  letter-spacing: -0.04em;
+  line-height: 2.625rem;
+  margin: 0;
+}
+
+.box6__title::before {
+  content: ">";
+}
+
+.box6__description {
+  margin: 0;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+}
+
+.box6__image {
+  width: fit-content;
+}
+
+@media screen and (min-width: 768px) {
+  .box-6 {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .box6__title {
+    font-size: 3.375rem;
+    line-height: 3rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box-6 {
+    flex-direction: column;
+  }
+
+  .box6__title {
+    font-size: 62px;
+    letter-spacing: -0.03em;
+    line-height: 58px;
+  }
 }
