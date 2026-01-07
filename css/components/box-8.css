@@ -9,8 +9,8 @@
 
 .box8__title {
   margin: 0;
-  font-size: 32px;
-  line-height: 28px;
+  font-size: 2rem;
+  line-height: 0.875;
   letter-spacing: -0.06em;
   font-weight: 500;
 }
@@ -34,16 +34,16 @@
 
 @media screen and (min-width: 768px) {
   .box8__title {
-    font-size: 36px;
-    line-height: 30px;
+    font-size: 2.25rem;
+    line-height: 0.83;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .box8__title {
-    font-size: 40px;
-    letter-spacing: -2px;
-    line-height: 36px;
+    font-size: 2.5rem;
+    letter-spacing: -0.05em;
+    line-height: 0.9;
   }
 
   .box-8 {
