@@ -26,6 +26,7 @@
 }
 
 .box4__description {
+  max-width: 22.5rem;
   margin: 0;
   font-size: 1.125rem;
   line-height: 1.1;
@@ -37,8 +38,11 @@
   }
 
   .box4__description {
-    max-width: 22.5rem;
     letter-spacing: 0em;
+  }
+
+  .box4__schedule-container {
+    width: 58%;
   }
 }
 
