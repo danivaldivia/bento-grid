@@ -21,10 +21,10 @@
   box-sizing: border-box;
   border-radius: 1rem;
   background-color: var(--white);
-  width: 220px;
-  height: 222px;
+  width: 13rem;
+  height: 14rem;
   padding: 1rem;
-  gap: 25px;
+  gap: 1.5rem;
   display: flex;
   flex-direction: column;
 }
@@ -34,50 +34,50 @@
   width: max-content;
   display: flex;
   flex-direction: row;
-  gap: 7px;
+  gap: 0.5rem;
 }
 
 .sender--message {
   box-sizing: border-box;
-  width: 130px;
-  height: 68px;
+  width: 8rem;
+  height: 4rem;
   background-color: #ffeded;
-  padding: 7px 16px;
+  padding: 0.5rem 1rem;
   border-radius: 1.25rem;
   text-align: end;
 }
 
 .sender--message p {
   margin: 0;
-  font-size: 12px;
+  font-size: 0.75rem;
   line-height: 150%;
 }
 
 .box8__content {
-  width: 220px;
-  height: 222px;
+  width: 14rem;
+  height: auto;
   position: relative;
 }
 
-.box8__chat {
-  width: 204px;
-  height: 222px;
-}
-
 .chat--sender--image {
-  width: 34px;
-  height: 34px;
+  width: 2.125rem;
+  height: 2.125rem;
   border-radius: 50%;
   background-color: var(--purple100);
   overflow: hidden;
 }
 
+.chat--sender--image img {
+  width: 100%;
+  height: auto;
+}
+
 .receiver--message {
   box-sizing: border-box;
-  width: 130px;
-  height: 97px;
+  width: 8rem;
+  height: 6rem;
   background-color: var(--yellow100);
-  padding: 7px 16px;
+  padding: 0.5rem 1rem;
   border-radius: 1.25rem;
   text-align: start;
   overflow: hidden;
@@ -93,29 +93,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 34px;
-  height: 34px;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   background-color: var(--purple100);
 }
 
 .box8__content--circle {
   background-color: var(--white);
-  height: 89px;
-  width: 89px;
+  height: 5.5rem;
+  width: 5.5rem;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  top: 45px;
+  top: 20%;
   right: 0;
 }
 
 @media screen and (min-width: 768px) {
   .box8__title {
     font-size: 2.25rem;
-    line-height: 0.83;
+    line-height: 1;
   }
 }
 
@@ -123,12 +123,12 @@
   .box8__title {
     font-size: 2.5rem;
     letter-spacing: -0.05em;
-    line-height: 0.9;
+    line-height: 1;
   }
 
   .box-8 {
     grid-row: 2/4;
-    gap: 55px;
+    gap: 3rem;
     padding-right: 0.75rem;
   }
 }
