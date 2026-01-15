@@ -3,7 +3,8 @@
   grid-area: box-6;
   padding: 1.5rem;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   gap: 1.5rem;
 }
 
@@ -33,11 +34,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .box-6 {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
   .box6__title {
     font-size: 3.375rem;
     line-height: 0.8;
