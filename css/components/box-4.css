@@ -20,13 +20,17 @@
   line-height: 1;
 }
 
+.box4__schedule-container {
+  max-width: 22rem;
+}
+
 .box4__schedule-container img {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .box4__description {
-  max-width: 22.5rem;
+  max-width: 22rem;
   margin: 0;
   font-size: 1.125rem;
   line-height: 1.1;
