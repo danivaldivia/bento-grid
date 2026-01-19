@@ -28,7 +28,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  filter: drop-shadow(-9.78px 11.74px 24.45px rgba(98, 26, 123, 0.05));
+  filter: drop-shadow(-10px 12px 24px rgba(98, 26, 123, 0.05));
   width: 80%;
   height: auto;
 }
