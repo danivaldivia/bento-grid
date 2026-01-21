@@ -1,5 +1,69 @@
 .box-5 {
   background-color: var(--purple500);
   grid-area: box-5;
-  height: 100%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  justify-content: center;
+}
+
+.box5__image {
+  width: 14.25rem;
+  height: 12.5rem;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.box5__content--back-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 86%;
+  height: auto;
+}
+
+.box5__content--front-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  filter: drop-shadow(-10px 12px 24px rgba(98, 26, 123, 0.05));
+  width: 80%;
+  height: auto;
+}
+
+.box5__title {
+  margin: 0;
+  color: var(--white);
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: -0.06em;
+  line-height: 0.9;
+}
+
+@media screen and (min-width: 768px) {
+  .box-5 {
+    flex-direction: row;
+  }
+
+  .box5__title {
+    max-width: 16rem;
+    font-size: 2.25rem;
+    text-align: start;
+    line-height: 0.8;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box-5 {
+    gap: 0.75rem;
+  }
+
+  .box5__title {
+    font-size: 2.5rem;
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+  }
 }

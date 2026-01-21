@@ -3,7 +3,7 @@
   min-width: 100%;
   padding: 1rem;
   display: grid;
-  gap: 1rem;
+  gap: 2rem;
   box-sizing: border-box;
   grid-template-rows: repeat(8, auto);
   grid-template-areas:
