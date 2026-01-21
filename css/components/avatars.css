@@ -20,7 +20,7 @@
 }
 
 .avatar_item:not(:last-child) {
-  margin-right: -10px;
+  margin-right: -0.625rem;
 }
 
 .avatar_item:nth-child(even) {
