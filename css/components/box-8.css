@@ -99,6 +99,11 @@
   background-color: var(--purple100);
 }
 
+.chat--receiver--image img {
+  width: 57%;
+  height: auto;
+}
+
 .box8__content--circle {
   background-color: var(--white);
   height: 5.5rem;
@@ -110,6 +115,11 @@
   border-radius: 50%;
   top: 20%;
   right: 0;
+}
+
+.box8__content--circle img {
+  width: 62%;
+  height: auto;
 }
 
 @media screen and (min-width: 768px) {
