@@ -1,5 +1,80 @@
 .box-7 {
   background-color: var(--yellow100);
   grid-area: box-7;
-  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.box7__title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 0.875;
+  letter-spacing: -0.06em;
+}
+
+.box7__title--highlight {
+  color: var(--purple500);
+  font-style: italic;
+}
+
+.box7__badge {
+  width: 12rem;
+  height: 6rem;
+  position: relative;
+}
+
+.box7__badge-label {
+  background-color: var(--yellow500);
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  border-radius: 3rem;
+  gap: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.box7__badge-text {
+  margin: 0;
+  font-weight: 600;
+  color: var(--purple500);
+}
+
+.box7__badge-label img {
+  height: 0.8em;
+  width: auto;
+}
+
+.box7__badge-pointer {
+  position: absolute;
+  left: 50%;
+  transform: translate(-42%, -18%);
+  width: 20%;
+  height: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .box-7 {
+    padding: 1.5rem;
+  }
+
+  .box7__title {
+    font-size: 2.25rem;
+    line-height: 0.8;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .box-7 {
+    padding: 2rem;
+  }
+
+  .box7__title {
+    font-size: 2.5rem;
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+  }
 }
