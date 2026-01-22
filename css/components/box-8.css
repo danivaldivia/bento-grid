@@ -22,25 +22,21 @@
   border-radius: 1rem;
   background-color: var(--white);
   width: 13rem;
-  height: 14rem;
   padding: 1rem;
   gap: 1.5rem;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .chat--sender,
 .chat--receiver {
-  width: max-content;
   display: flex;
-  flex-direction: row;
   gap: 0.5rem;
 }
 
 .sender--message {
   box-sizing: border-box;
-  width: 8rem;
-  height: 4rem;
   background-color: #ffeded;
   padding: 0.5rem 1rem;
   border-radius: 1.25rem;
@@ -56,15 +52,15 @@
 .box8__content {
   width: 14rem;
   height: auto;
-  position: relative;
 }
 
 .chat--sender--image {
-  width: 2.125rem;
-  height: 2.125rem;
+  width: 2rem;
+  height: 2rem;
   border-radius: 50%;
   background-color: var(--purple100);
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .chat--sender--image img {
@@ -74,16 +70,17 @@
 
 .receiver--message {
   box-sizing: border-box;
-  width: 8rem;
-  height: 6rem;
   background-color: var(--yellow100);
   padding: 0.5rem 1rem;
   border-radius: 1.25rem;
   text-align: start;
-  overflow: hidden;
 }
 
 .receiver--message p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
   margin: 0;
   font-size: 0.75rem;
   line-height: 150%;
@@ -97,6 +94,7 @@
   height: 2rem;
   border-radius: 50%;
   background-color: var(--purple100);
+  flex-shrink: 0;
 }
 
 .chat--receiver--image img {
@@ -106,15 +104,15 @@
 
 .box8__content--circle {
   background-color: var(--white);
-  height: 5.5rem;
-  width: 5.5rem;
+  height: 45%;
+  width: 42%;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
   top: 20%;
-  right: 0;
+  right: -7%;
 }
 
 .box8__content--circle img {
@@ -133,12 +131,11 @@
   .box8__title {
     font-size: 2.5rem;
     letter-spacing: -0.05em;
-    line-height: 1;
+    line-height: 0.9;
   }
 
   .box-8 {
     grid-row: 2/4;
-    gap: 3rem;
     padding-right: 0.75rem;
   }
 }
