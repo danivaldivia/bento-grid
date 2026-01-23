@@ -21,7 +21,6 @@
   box-sizing: border-box;
   border-radius: 1rem;
   background-color: var(--white);
-  width: 13rem;
   padding: 1rem;
   gap: 1.5rem;
   display: flex;
@@ -33,6 +32,7 @@
 .chat--receiver {
   display: flex;
   gap: 0.5rem;
+  max-width: 171px;
 }
 
 .sender--message {
@@ -46,11 +46,11 @@
 .sender--message p {
   margin: 0;
   font-size: 0.75rem;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 .box8__content {
-  width: 14rem;
+  width: 12.75rem;
   height: auto;
 }
 
@@ -83,7 +83,7 @@
   overflow: hidden;
   margin: 0;
   font-size: 0.75rem;
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 .chat--receiver--image {
@@ -104,8 +104,8 @@
 
 .box8__content--circle {
   background-color: var(--white);
-  height: 45%;
   width: 42%;
+  aspect-ratio: 1/1;
   position: absolute;
   display: flex;
   align-items: center;
@@ -136,6 +136,5 @@
 
   .box-8 {
     grid-row: 2/4;
-    padding-right: 0.75rem;
   }
 }
