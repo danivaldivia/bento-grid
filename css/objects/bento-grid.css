@@ -36,7 +36,6 @@
   .bento-grid {
     grid-template-columns: repeat(4, minmax(auto, 16rem));
     grid-template-rows: repeat(10, auto);
-    align-content: center;
     justify-content: center;
     grid-template-areas:
       "box-7 box-1 box-1 box-4"
