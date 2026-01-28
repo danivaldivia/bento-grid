@@ -5,8 +5,7 @@
   flex-direction: column;
   padding: 1.5rem;
   gap: 1.5rem;
-  box-sizing: border-box;
-  border-radius: var(--radius-card);
+  justify-content: space-between;
 }
 
 .box8__title {
@@ -50,8 +49,9 @@
 }
 
 .box8__content {
-  width: 12.75rem;
+  max-width: 12.75rem;
   height: auto;
+  width: 100%;
 }
 
 .chat--sender--image {
@@ -136,6 +136,6 @@
   }
 
   .box-8 {
-    grid-row: 2/4;
+    grid-row: 6/-1;
   }
 }
